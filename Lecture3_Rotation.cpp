@@ -19,7 +19,7 @@ void rotateMatrix(int mat[][N])
 			// temp variable
 			int temp = mat[x][y];
 
-			// Move values from right to top
+			// Move values from right to tops
 			mat[x][y] = mat[y][N - 1 - x];
 
 			// Move values from bottom to right
